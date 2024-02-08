@@ -27,6 +27,23 @@ li a{
 li{
     list-style: none;
 }
+.btn{
+    padding: 10px 15px;
+    background-color: #0061ff;
+    color: white;
+    border: transparent;
+}
+.btn-nobg{
+    background-color: transparent;
+    color: black;
+}
+.btn-big{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.btn-border{
+    border: 1px solid black;
+}
 
 /* #endregion ---- General ---- */
 
@@ -36,7 +53,7 @@ li{
     height: 80px;
     justify-content: space-between;
 }
-ul{
+ul :not(.btn){
     gap: 40px;
     padding: 0 20px;
 }
