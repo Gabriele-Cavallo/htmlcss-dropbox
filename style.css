@@ -180,9 +180,6 @@ nav ul :not(.btn){
 .hero{
     background-color: #b4d0e7;
 }
-main .btn+.btn-nobg{
-    padding: 0;
-}
 .small-col *{
     margin-bottom: 30px;
 }
