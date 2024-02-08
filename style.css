@@ -15,6 +15,9 @@ h1{
     font-size: 70px;
     padding: 95px 125px 0 0;
 }
+h2{
+    font-size: 40px;
+}
 h2 , h3 , h4{
     padding-bottom: 40px;
 }
@@ -61,6 +64,7 @@ hr{
 .btn-black{
     background-color: black;
     padding-left: 5px;
+    color: #999999;
 }
 
 /* #endregion ---- Buttons ---- */
@@ -316,6 +320,7 @@ footer .col-20{
 .lang{
     padding: 35px 20px 35px 0;
     border-top: 1px solid white;
+    color: #999999;
 }
 
 /* #endregion ---- Footer ---- */
