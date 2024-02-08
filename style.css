@@ -58,6 +58,10 @@ hr{
     padding: 15px 50px;
     color: black;
 }
+.btn-black{
+    background-color: black;
+    padding-left: 5px;
+}
 
 /* #endregion ---- Buttons ---- */
 
@@ -121,6 +125,12 @@ img{
     padding-left: 30px;
     padding-right: 30px;
     min-height: 950px;
+}
+.col-20{
+    width: calc(100%/ 5);
+    padding-right: 50px;
+    padding-bottom: 100px;
+    line-height: 2;
 }
 .col-33{
     width: calc(100% /3);
@@ -293,3 +303,19 @@ main .btn+.btn-nobg{
 }
 
 /* #endregion ---- Trial/F.A.Q.---- */
+
+/* #region ---- Footer ---- */
+
+footer , footer a{
+    background-color: black;
+    color: white;
+}
+footer .col-20{
+    margin-top: 110px;
+}
+.lang{
+    padding: 35px 20px 35px 0;
+    border-top: 1px solid white;
+}
+
+/* #endregion ---- Footer ---- */
