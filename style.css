@@ -11,6 +11,10 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+h1{
+    font-size: 70px;
+    padding: 95px 125px 0 0;
+}
 
 /* #endregion ---- Typography ---- */
 
@@ -32,10 +36,14 @@ li{
     background-color: #0061ff;
     color: white;
     border: transparent;
+    cursor: pointer;
+    text-decoration: none;
 }
 .btn-nobg{
     background-color: transparent;
     color: black;
+    padding-left: 0;
+    padding-right: 0;
 }
 .btn-big{
     padding-left: 40px;
@@ -43,6 +51,30 @@ li{
 }
 .btn-border{
     border: 1px solid black;
+}
+img{
+    width: 100%;
+}
+.big-container{
+    width: 1200px;
+}
+.small-container{
+    width: 1000px;
+}
+.small-col{
+    width: 30%;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.big-col{
+    width: 70%;
+}
+.row{
+    height: 472.5px;
+    position: relative;
+    left: 0;
+    top: 60px;
 }
 
 /* #endregion ---- General ---- */
@@ -59,3 +91,22 @@ ul :not(.btn){
 }
 
 /* #endregion ---- Header ---- */
+
+/* #region ---- Main ---- */
+
+.hero{
+    background-color: #b4d0e7;
+    justify-content: center;
+}
+main .btn+.btn-nobg{
+    padding: 0;
+}
+.small-col *{
+    margin-bottom: 30px;
+}
+.fa-arrow-down{
+    font-size: 40px;
+    padding-top: 70px;
+}
+
+/* #endregion ---- Main ---- */
