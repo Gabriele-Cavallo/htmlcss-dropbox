@@ -16,7 +16,7 @@ h1{
     padding: 95px 125px 0 0;
 }
 h2 , h3 , h4{
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 span{
     font-size: small;
@@ -198,6 +198,13 @@ main .btn+.btn-nobg{
 .trial{
     color: #61082b;
     padding: 140px 0;
+}
+.question:nth-child(even){
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.question{
+    padding: 30px 0;
 }
 /* #endregion ---- Main ---- */
 
