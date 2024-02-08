@@ -50,6 +50,8 @@ hr{
 }
 .btn-border{
     border: 1px solid black;
+    padding: 10px;
+    margin-top: 20px;
 }
 
 /* #endregion ---- Buttons ---- */
@@ -85,13 +87,15 @@ img{
 }
 .small-container{
     width: 1000px;
-    padding-top: 120px;
 }
 .small-col{
     width: 30%;
-    align-items: flex-start;
-    flex-wrap: wrap;
     height: 100%;
+}
+.small-col-40{
+    width: 40%;
+    height: 100%;
+    padding: 50px;
 }
 .big-col{
     width: 70%;
@@ -146,6 +150,7 @@ nav ul :not(.btn){
 }
 .hero{
     background-color: #b4d0e7;
+    margin-bottom: 100px;
 }
 main .btn+.btn-nobg{
     padding: 0;
