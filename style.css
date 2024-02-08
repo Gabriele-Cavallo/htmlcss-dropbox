@@ -191,3 +191,55 @@ main .btn+.btn-nobg{
     color: #6b6dff;
 }
 /* #endregion ---- Main ---- */
+
+/* #region ---- Collaborations ---- */
+
+.aside-left{
+    width: 33vw;
+    height: 640px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.center{
+    width: 33vw;
+    height: 640px;
+    background-color: #d0d0d3;
+    padding: 50px 50px 0;
+}
+.aside-right{
+    width: 33vw;
+    height: 640px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.collab{
+    height: 50%;
+    width: 50%;
+}
+.top-left{
+    background-color: yellow;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.top-right{
+    background-color: red;
+    justify-content: end;
+}
+.bottom-left{
+    background-color: blue;
+    align-self: flex-end;
+}
+.bottom-right{
+    background-color: green;
+    align-self: flex-end;
+    justify-content: end;
+}
+.center p{
+    margin-bottom: 40px;
+}
+.center h2{
+    font-size: 70px;
+    display: inline-block;
+}
+
+/* #endregion ---- Collaborations ---- */
