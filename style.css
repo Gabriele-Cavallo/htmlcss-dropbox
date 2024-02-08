@@ -195,17 +195,6 @@ main .btn+.btn-nobg{
 .fa-check{
     color: #6b6dff;
 }
-.trial{
-    color: #61082b;
-    padding: 140px 0;
-}
-.question:nth-child(even){
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-}
-.question{
-    padding: 30px 0;
-}
 /* #endregion ---- Main ---- */
 
 /* #region ---- Collaborations ---- */
@@ -288,3 +277,19 @@ main .btn+.btn-nobg{
     padding: 110px 80px;
 }
 /* #endregion ---- Collaborations ---- */
+
+/* #region ---- Trial/F.A.Q. ---- */
+
+.trial{
+    color: #61082b;
+    padding: 140px 0;
+}
+.question:nth-child(even){
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.question{
+    padding: 30px 0;
+}
+
+/* #endregion ---- Trial/F.A.Q.---- */
