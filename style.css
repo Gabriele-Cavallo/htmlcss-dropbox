@@ -12,4 +12,33 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-/* #region ---- Typography ---- */
+/* #endregion ---- Typography ---- */
+
+/* #region ---- General ---- */
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+
+/* #endregion ---- General ---- */
+
+/* #region ---- Header ---- */
+
+.header-nav{
+    height: 80px;
+    justify-content: space-between;
+}
+ul{
+    gap: 40px;
+    padding: 0 20px;
+}
+
+/* #endregion ---- Header ---- */
