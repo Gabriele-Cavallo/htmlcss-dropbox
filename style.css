@@ -58,7 +58,7 @@ hr{
 }
 .btn-white{
     background-color: white;
-    padding: 15px 50px;
+    padding: 15px 40px;
     color: black;
 }
 .btn-black{
@@ -297,6 +297,7 @@ main .btn+.btn-nobg{
 .trial{
     color: #61082b;
     padding: 140px 0;
+    width: 60%;
 }
 .question:nth-child(even){
     border-top: 1px solid black;
