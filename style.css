@@ -221,7 +221,7 @@ main .btn+.btn-nobg{
 
 /* #region ---- Collaborations ---- */
 
-.aside-left{
+.aside-left , .aside-right{
     width: 33vw;
     height: 640px;
     display: flex;
@@ -232,43 +232,32 @@ main .btn+.btn-nobg{
     height: 640px;
     background-color: #d0d0d3;
     padding: 50px 50px 0;
-}
-.aside-right{
-    width: 33vw;
-    height: 640px;
-    display: flex;
-    flex-wrap: wrap;
+    overflow-y: hidden;
 }
 .collab{
     display: flex;
     height: 50%;
     width: 50%;
+    justify-content: center;
+    align-items: center;
 }
 .collab img{
     align-self: center;
+    filter: invert(1);
+    width: 145px;
 }
 .top-left-left{
     background-color: #a2d39b;
-    justify-content: flex-start;
-    align-items: flex-start;
     border: 15px solid #d1e9cd;
-    padding: 140px 90px;
 }
 .top-right-left{
     background-color: #61082b;
-    justify-content: end;
-    padding: 100px 80px;
 }
 .bottom-left-left{
     background-color: #0093ce;
-    align-self: flex-end;
-    padding: 150px 80px;
 }
 .bottom-right-left{
     background-color: #ff1c1c;
-    align-self: flex-end;
-    justify-content: end;
-    padding: 125px 80px;
 }
 .center p{
     margin-bottom: 40px;
@@ -278,25 +267,15 @@ main .btn+.btn-nobg{
 }
 .top-left-right{
     background-color: #d5001f;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 135px 80px;
 }
 .top-right-right{
     background-color: #b4d0e7;
-    justify-content: end;
-    padding: 155px 80px;
 }
 .bottom-left-right{
     background-color: #0d2481;
-    align-self: flex-end;
-    padding: 125px 80px;
 }
 .bottom-right-right{
     background-color: #ffd830;
-    align-self: flex-end;
-    justify-content: end;
-    padding: 110px 80px;
 }
 /* #endregion ---- Collaborations ---- */
 
