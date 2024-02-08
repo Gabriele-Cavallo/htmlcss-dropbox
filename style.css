@@ -18,8 +18,11 @@ h1{
 h2{
     font-size: 40px;
 }
-h2 , h3 , h4{
+h2 , h4{
     padding-bottom: 40px;
+}
+h3{
+    padding-bottom: 20px;
 }
 span{
     font-size: small;
@@ -40,6 +43,11 @@ hr{
     border: transparent;
     cursor: pointer;
     text-decoration: none;
+}
+.btn-nobg-small{
+    background-color: transparent;
+    color: black;
+    padding: 10px 15px;
 }
 .btn-nobg{
     background-color: transparent;
