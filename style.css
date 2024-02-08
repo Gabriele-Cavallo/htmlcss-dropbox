@@ -16,7 +16,7 @@ h1{
     padding: 95px 125px 0 0;
 }
 h2 , h3 , h4{
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 span{
     font-size: small;
@@ -62,7 +62,6 @@ hr{
     border: 1px #d0d0d3 solid ;
     padding: 33px;
     min-height: 200px;
-    margin-bottom: 150px;
 }
 .flex{
     display: flex;
@@ -126,6 +125,9 @@ img{
 .col-100{
     width: 100%;
 }
+section{
+    margin-bottom: 100px;
+}
 
 /* #endregion ---- General ---- */
 
@@ -150,7 +152,6 @@ nav ul :not(.btn){
 }
 .hero{
     background-color: #b4d0e7;
-    margin-bottom: 100px;
 }
 main .btn+.btn-nobg{
     padding: 0;
