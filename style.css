@@ -5,3 +5,11 @@
     box-sizing: border-box;
 }
 /* #endregion ---- Reset ---- */
+
+/* #region ---- Typography ---- */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* #region ---- Typography ---- */
