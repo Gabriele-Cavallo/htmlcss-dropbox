@@ -53,6 +53,11 @@ hr{
     padding: 10px;
     margin-top: 20px;
 }
+.btn-white{
+    background-color: white;
+    padding: 15px 50px;
+    color: black;
+}
 
 /* #endregion ---- Buttons ---- */
 
@@ -189,6 +194,10 @@ main .btn+.btn-nobg{
 }
 .fa-check{
     color: #6b6dff;
+}
+.trial{
+    color: #61082b;
+    padding: 140px 0;
 }
 /* #endregion ---- Main ---- */
 
