@@ -228,7 +228,7 @@ nav ul :not(.btn){
     height: 33vw;
     background-color: #d0d0d3;
     padding: 50px 50px 0;
-    overflow-y: hidden;
+    overflow: auto;
 }
 .collab{
     display: flex;
