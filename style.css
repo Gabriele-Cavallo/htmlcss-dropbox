@@ -24,13 +24,13 @@ h2 , h4{
 h3{
     padding-bottom: 20px;
 }
-span{
-    font-size: small;
-}
 hr{
     width: 20%;
     margin: 30px 0 40px;
     color: #d0d0d3;
+}
+small{
+    color: #666670;
 }
 
 /* #endregion ---- Typography ---- */
