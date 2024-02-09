@@ -121,7 +121,7 @@ img{
     width: 70%;
 }
 .row-hero{
-    height: 472.5px;
+    min-height: 472.5px;
     position: relative;
     left: 0;
     top: 60px;
@@ -161,7 +161,7 @@ section{
 /* #region ---- Header ---- */
 
 .header-nav{
-    height: 80px;
+    min-height: 80px;
     justify-content: space-between;
 }
 nav ul :not(.btn){
@@ -226,7 +226,7 @@ nav ul :not(.btn){
 }
 .center{
     width: 33vw;
-    height: 640px;
+    min-height: 640px;
     background-color: #d0d0d3;
     padding: 50px 50px 0;
     overflow-y: hidden;
