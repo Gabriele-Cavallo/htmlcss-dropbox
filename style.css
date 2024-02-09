@@ -155,6 +155,10 @@ section{
 .no-border{
     border-top: none;
 }
+.flex-main{
+    display: flex;
+    justify-content: center;
+}
 
 /* #endregion ---- General ---- */
 
@@ -180,10 +184,6 @@ header nav ul :not(.btn){
 
 /* #region ---- Main ---- */
 
-.flex-main{
-    display: flex;
-    justify-content: center;
-}
 .hero{
     background-color: #b4d0e7;
 }
