@@ -159,12 +159,16 @@ section{
 
 header{
     padding: 0 25px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 10;
 }
 .header-nav{
     min-height: 80px;
     justify-content: space-between;
 }
-nav ul :not(.btn){
+header nav ul :not(.btn){
     gap: 40px;
     padding: 0 20px 0 0;
 }
