@@ -239,7 +239,7 @@ header nav ul :not(.btn){
 }
 .center{
     background-color: #d0d0d3;
-    padding: 50px 50px 0;
+    padding: 50px 50px 0 50px;
     overflow: auto;
 }
 .collab{
