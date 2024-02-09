@@ -240,7 +240,7 @@ nav ul :not(.btn){
 .collab img{
     align-self: center;
     filter: invert(1);
-    width: 145px;
+    max-width: 145px;
 }
 .top-left-left{
     background-color: #a2d39b;
