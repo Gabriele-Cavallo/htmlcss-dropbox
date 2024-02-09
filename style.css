@@ -250,9 +250,8 @@ header nav ul :not(.btn){
     align-items: center;
 }
 .collab img{
-    align-self: center;
     filter: invert(1);
-    max-width: 145px;
+    max-width: 200px;
 }
 .top-left-left{
     background-color: #a2d39b;
