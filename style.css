@@ -217,15 +217,15 @@ nav ul :not(.btn){
 
 /* #region ---- Collaborations ---- */
 
-.aside-left , .aside-right{
+.aside-left , .aside-right , .center{
     width: 33vw;
     height: 33vw;
+}
+.aside-left , .aside-right{
     display: flex;
     flex-wrap: wrap;
 }
 .center{
-    width: 33vw;
-    height: 33vw;
     background-color: #d0d0d3;
     padding: 50px 50px 0;
     overflow: auto;
