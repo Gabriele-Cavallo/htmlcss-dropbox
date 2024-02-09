@@ -19,7 +19,7 @@ h2{
     font-size: 40px;
 }
 h2 , h4{
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 h3{
     padding-bottom: 20px;
@@ -147,7 +147,7 @@ img{
     width: 100%;
 }
 section{
-    margin-bottom: 100px;
+    margin-bottom: 140px;
 }
 .border{
     border: 1px #d0d0d3 solid ;
@@ -195,7 +195,7 @@ header nav ul :not(.btn){
     padding-top: 70px;
 }
 .small-container .flex li{
-    padding: 75px 50px 50px 0px;
+    padding: 45px 50px 50px 0px;
 }
 .small-container i{
     padding: 0 5px 0 0;
@@ -298,6 +298,9 @@ header nav ul :not(.btn){
 }
 .question{
     padding: 30px 0;
+}
+.question i{
+    padding-right: 45px;
 }
 
 /* #endregion ---- Trial/F.A.Q.---- */
