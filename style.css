@@ -219,13 +219,13 @@ nav ul :not(.btn){
 
 .aside-left , .aside-right{
     width: 33vw;
-    height: 640px;
+    height: 33vw;
     display: flex;
     flex-wrap: wrap;
 }
 .center{
     width: 33vw;
-    min-height: 640px;
+    height: 33vw;
     background-color: #d0d0d3;
     padding: 50px 50px 0;
     overflow-y: hidden;
