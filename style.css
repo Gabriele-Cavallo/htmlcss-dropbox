@@ -198,6 +198,7 @@ header nav li:hover:not(#logo){
     background: linear-gradient(to bottom, white, rgb(196, 196, 196));
     padding: 28px 20px;
     border-bottom: 2px solid black;
+    max-height: 80px;
 }
 
 /* #endregion ---- Header ---- */
