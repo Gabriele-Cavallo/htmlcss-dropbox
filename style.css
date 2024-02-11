@@ -191,6 +191,7 @@ header{
 .header-nav{
     min-height: 80px;
     justify-content: space-between;
+    overflow-x: auto;
 }
 header nav ul :not(.btn){
     padding: 0 20px 0 20px;
