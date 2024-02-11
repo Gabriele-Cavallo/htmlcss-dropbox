@@ -151,7 +151,8 @@ img{
     padding-right: 30px;
     min-height: 950px;
 }
-.col-20{
+.col-2{
+    margin-top: 110px;
     padding-bottom: 100px;
     line-height: 2;
 }
@@ -330,9 +331,6 @@ header nav li:hover:not(#logo){
 footer , footer a{
     background-color: black;
     color: white;
-}
-footer .col-20{
-    margin-top: 110px;
 }
 .lang{
     width: 10%;
