@@ -327,7 +327,13 @@ header nav li:hover:not(#logo){
 .question i{
     padding-right: 45px;
 }
-
+summary{
+    list-style: none;
+    cursor: pointer;
+}
+.hidden{
+    margin-top: 20px;
+}
 /* #endregion ---- Trial/F.A.Q.---- */
 
 /* #region ---- Footer ---- */
