@@ -321,6 +321,9 @@ header nav li:hover:not(#logo){
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
+.question:last-child{
+    border-bottom: 1px solid black;
+}
 .question{
     padding: 30px 0;
 }
@@ -333,6 +336,18 @@ summary{
 }
 .hidden{
     margin-top: 20px;
+}
+input {
+    display: none;
+}
+input + label + .content {
+    display: none;
+}
+input:checked + label + .content {
+    display: block;
+}
+label *{
+    cursor: pointer;
 }
 /* #endregion ---- Trial/F.A.Q.---- */
 
