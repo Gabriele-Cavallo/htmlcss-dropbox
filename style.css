@@ -251,8 +251,8 @@ header nav li:hover:not(#logo){
 /* #region ---- Collaborations ---- */
 
 .aside-left , .aside-right , .center{
-    width: 33vw;
-    height: 33vw;
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
 }
 .aside-left , .aside-right{
     display: flex;
