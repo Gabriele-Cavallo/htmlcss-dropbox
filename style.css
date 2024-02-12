@@ -264,15 +264,16 @@ header nav li:hover:not(#logo){
     overflow: auto;
 }
 .collab{
-    display: flex;
+    position: relative;
     height: 50%;
     width: 50%;
-    justify-content: center;
-    align-items: center;
 }
 .collab img{
     filter: invert(1);
-    max-width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 .top-left-left{
     background-color: #a2d39b;
