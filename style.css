@@ -101,6 +101,9 @@ small{
     display: flex;
     align-items: center;
 }
+.flex-no-align{
+    display: flex;
+}
 .flex-between{
     display: flex;
     justify-content: space-between;
@@ -156,6 +159,9 @@ img{
     margin-top: 110px;
     padding-bottom: 100px;
     line-height: 2;
+}
+.pad-50{
+    padding: 45px 50px 50px 0px;
 }
 .col-30{
     width: 30%;
@@ -217,17 +223,24 @@ header nav li:hover:not(#logo){
     font-size: 40px;
     padding-top: 60px;
 }
-.small-container .flex li{
-    padding: 45px 50px 50px 0px;
-}
+
 .small-container i{
     padding: 0 5px 0 0;
 }
-.select{
-    color: #0061ff;
+.display-block-radio{
+    display: block;
+    appearance: none;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #999;
+    transition: 0.2s all linear;
+    margin-right: 5px;
+    position: relative;
+    top: 4px;
 }
-.unselect{
-    color: #d0d0d3;
+.display-block-radio:checked{
+    border: 5px solid #0061ff;
 }
 .options{
     text-align: center;
